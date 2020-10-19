@@ -5,7 +5,7 @@ import org.junit.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class Demo6 {
+public class Demo06 {
 	
 	private final String pokeUrlPrefix = "https://pokeapi.co/api/v2/";
 

@@ -7,7 +7,7 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class Demo2_2 {
+public class Demo02_2 {
 	
 	private final String pokeUrlPrefix = "https://pokeapi.co/api/v2/";
 	

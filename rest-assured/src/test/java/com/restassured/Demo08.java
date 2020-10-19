@@ -11,7 +11,7 @@ import org.junit.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class Demo8 {
+public class Demo08 {
 	
 	private final String pokeUrlPrefix = "https://pokeapi.co/api/v2/";
 	private final String pokemonGen1Path = System.getProperty("user.dir")+"\\src\\test\\resources\\pokemon-gen1.xlsx";
