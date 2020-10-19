@@ -12,12 +12,12 @@
   
   <dependencies>
   
-	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependency>
-		<groupId>org.testng</groupId>
-		<artifactId>testng</artifactId>
-		<version>6.10</version>
-		<scope>test</scope>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	    <scope>test</scope>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 	<dependency>
