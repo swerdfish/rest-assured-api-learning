@@ -1,4 +1,4 @@
-package com.restassured;
+package com.restassured.lex;
 
 import org.junit.Test;
 

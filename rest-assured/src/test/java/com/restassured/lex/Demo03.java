@@ -1,21 +1,21 @@
-package com.restassured;
+package com.restassured.lex;
 
 import org.junit.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class Demo04 {
+public class Demo03 {
 	
 	private final String pokeUrlPrefix = "https://pokeapi.co/api/v2/";
 
 	@Test
 	public void test() {
 		Response response = RestAssured.get(pokeUrlPrefix+"pokemon/pikachu");
-		int statusCode = response.getStatusCode();
-		System.out.println("Status Code: "+statusCode);
-		String statusLine = response.getStatusLine();
-		System.out.println("Status Line: "+statusLine);
+		String id = response.getSessionId();
+		System.out.println("Session ID: "+id);
+		String contentType = response.getContentType();
+		System.out.println("Content-Type value: "+contentType);
 	}
 
 }

@@ -1,9 +1,8 @@
-package com.restassured;
+package com.restassured.lex;
 
 import static org.junit.Assert.assertTrue;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -45,6 +44,7 @@ public class Demo12 {
 					response.getBody().asString().contains(accHolderName)
 			);
 		}
+		wb.close();
 	}
 
 }

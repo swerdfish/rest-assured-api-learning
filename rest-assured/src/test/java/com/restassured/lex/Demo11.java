@@ -1,4 +1,4 @@
-package com.restassured;
+package com.restassured.lex;
 
 import org.json.JSONObject;
 import org.junit.Assert;
